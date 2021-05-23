@@ -44,20 +44,6 @@ body {
     letter-spacing: 0.39px;
 }
 
-.stat {
-    font-family: 'Lexend Deca', sans-serif;
-    line-height: 45px;
-    letter-spacing: 0.7px;
-    font-size: 25px;
-}
-
-.quantity {
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    font-weight: 400 700;
-}
-
-
 .attribution { 
     font-size: 11px; text-align: center; 
 }
@@ -75,4 +61,44 @@ body {
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
+}
+
+/*Space out words*/
+.items {
+    word-spacing: 90px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 400 700;
+    letter-spacing: 0.9px;
+    
+}
+
+/*Move stats down slightly*/
+.stats {
+    padding: 45px 0px 0px 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    letter-spacing: 1.4px;
+    font-size: 20px;
+}
+
+#left {
+    line-height: 15px;
+    display: inline-block;
+}
+
+#middle {
+    line-height: 15px;
+    display: inline-block;
+    padding: 0px 0px 0px 70px;
+}
+
+#right {
+    line-height: 15px;
+    display: inline-block;
+    padding: 0px 0px 0px 70px;
+}
+
+#statistics { 
+    height: 300px;
+    width: 640px;
 }
