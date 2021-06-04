@@ -9,12 +9,12 @@ body {
 /*Creates division which centers content*/
 .container {
     margin: 175px 200px;
-    width: 1280px;
+    width: 1220px;
     height: 450px;
     border-radius: 10px;
     background: linear-gradient(to right, 
     hsl(244, 38%, 16%) 50%, 
-    hsl(277, 64%, 61%) 50%
+    hsl(277, 68%, 32%) 50%
     );
 }
 
@@ -113,7 +113,7 @@ body {
 }
 
 img {
-    width: 640px;
+    width: 610px;
     height: 450px;
     opacity: 0.45;
     border-radius: 0px 10px 10px 0px;
