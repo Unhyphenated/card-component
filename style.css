@@ -11,9 +11,11 @@ body {
     margin: 175px 200px;
     width: 1280px;
     height: 450px;
-    padding: 10px;
     border-radius: 10px;
-    background: hsl(244, 38%, 16%);
+    background: linear-gradient(to right, 
+    hsl(244, 38%, 16%) 50%, 
+    hsl(277, 64%, 61%) 50%
+    );
 }
 
 /*Highlights 'Insights'*/
@@ -26,6 +28,8 @@ body {
     width: 400px;
     height: 500px;
     padding: 45px 70px 130px 80px;
+    position: absolute;
+    top: 170px;
 }
 
 /*Fonts*/
@@ -91,16 +95,28 @@ body {
 }
 
 /*Styling image*/
-#image {
-    background-color:hsl(277, 64%, 61%);
-    width: 640px;
+
+/*#image {
+    background: linear-gradient(to right, 
+    hsl(244, 38%, 16%) 50%, 
+    hsl(277, 79%, 33%) 50%
+    );
+    width: 1280px;
     height: 450px;
     border-radius: 0px 10px 10px 0px;
+    margin: 175px 200px;
+    text-align: right;
+}
+*/
+.image {
+    text-align: right;
 }
 
 img {
-    width: inherit;
-    height: inherit;
+    width: 640px;
+    height: 450px;
     opacity: 0.45;
     border-radius: 0px 10px 10px 0px;
+    display: inline-block;
 }
+
